@@ -8,7 +8,7 @@ Beyond that, I enjoy diving into data exploration projects within the **Web3 eco
 
 Open to new adventures and always ready for the next challenge!
 
-## Tools and programming languages I use regularly
+### Tools and programming languages I use regularly
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
