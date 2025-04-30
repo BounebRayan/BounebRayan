@@ -6,4 +6,4 @@ I'm currently researching **database energy consumption** and exploring **sustai
 
 Beyond that, I enjoy diving into data exploration projects within the **Web3 ecosystem**. I'm actively contributing to the [WalletLabels](https://www.walletlabels.xyz) initiative, where we focus on labeling and analyzing blockchain wallet addresses.
 
-Open to new adventures and always ready for the next challenge! ✨
+Open to new adventures and always ready for the next challenge!
