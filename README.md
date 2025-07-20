@@ -1,4 +1,4 @@
-## Hi there, I'm Rayan! 👋
+## Hi there, I'm Rayan!
 
 I’m a final-year engineering student with a strong passion for **web development**, **data**, and **blockchain technologies**.
 
