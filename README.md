@@ -1,7 +1,6 @@
-## Hi there, I'm Rayan!
+## Hi there, I'm Rayan! 👋
 
-I’m a final-year engineering student with a strong passion for **web development**, **data**, and **blockchain technologies**.
+I’m a freshly graduated engineering student and currently a Web3 developer at **Code & Ledger**.  
+Most of my time goes into building dApps, DeFi platforms, and experimenting with new ideas in the blockchain space.
 
-Currently, I’m a Web3 developer at **Code & Ledger**, where I work on developing dApps for our clients. I particularly enjoy exploring data within the **Web3 ecosystem**, and I am actively contribute to WalletLabels, a project focused on labeling and analyzing blockchain wallet addresses.
-
-As part of my end-of-studies internship, I’m researching **database energy consumption** and investigating sustainable **query optimization** methods. 🌿
+I also like contributing to open-source projects, like **WalletLabels**, an initiative focused on labeling blockchain wallet addresses to make the crypto space a little more transparent.
