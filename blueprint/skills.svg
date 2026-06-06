@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="246" viewBox="0 0 800 246">
+  <defs>
+    <pattern id="bp-skills-grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#0e3a6e"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#7d9fc4" stroke-width="0.4" stroke-opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <!-- Cyanotype paper -->
+  <rect width="100%" height="100%" fill="#0e3a6e" rx="14" ry="14"/>
+  <rect width="100%" height="100%" fill="url(#bp-skills-grid)" rx="14" ry="14"/>
+
+  <!-- Sheet border + corner registration marks -->
+  <rect x="24" y="24" width="752" height="198" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.35"/>
+  <g>
+    <line x1="18" y1="24" x2="30" y2="24" stroke="#ffffff" stroke-width="1"/>
+    <line x1="24" y1="18" x2="24" y2="30" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="770" y1="24" x2="782" y2="24" stroke="#ffffff" stroke-width="1"/>
+    <line x1="776" y1="18" x2="776" y2="30" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="18" y1="222" x2="30" y2="222" stroke="#ffffff" stroke-width="1"/>
+    <line x1="24" y1="216" x2="24" y2="228" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="770" y1="222" x2="782" y2="222" stroke="#ffffff" stroke-width="1"/>
+    <line x1="776" y1="216" x2="776" y2="228" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Title strip -->
+  <line x1="32" y1="52" x2="768" y2="52" stroke="#7d9fc4" stroke-width="0.6" stroke-opacity="0.55"/>
+  <text x="38" y="46" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2.2">PARTS LIST — DEVELOPMENT STACK</text>
+  <text x="762" y="46" text-anchor="end" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">SHEET 03 / 05 · QTY 10</text>
+
+  <!-- BOM table -->
+  <g>
+    <text x="42" y="82" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">REF</text>
+    <text x="72" y="82" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">DESIGNATION</text>
+    <line x1="36" y1="88" x2="391" y2="88" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.55"/>
+  </g>
+  <g>
+    <text x="415" y="82" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">REF</text>
+    <text x="445" y="82" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">DESIGNATION</text>
+    <line x1="409" y1="88" x2="764" y2="88" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.55"/>
+  </g>
+  <g>
+        <line x1="30" y1="102" x2="34" y2="102" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="42" y="106" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">01</text>
+        <text x="72" y="106" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">NEXT.JS</text>
+      </g>
+      <g>
+        <line x1="30" y1="120" x2="34" y2="120" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="42" y="124" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">02</text>
+        <text x="72" y="124" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">REACT</text>
+      </g>
+      <g>
+        <line x1="30" y1="138" x2="34" y2="138" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="42" y="142" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">03</text>
+        <text x="72" y="142" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">NEST.JS</text>
+      </g>
+      <g>
+        <line x1="30" y1="156" x2="34" y2="156" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="42" y="160" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">04</text>
+        <text x="72" y="160" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">PYTHON</text>
+      </g>
+      <g>
+        <line x1="30" y1="174" x2="34" y2="174" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="42" y="178" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">05</text>
+        <text x="72" y="178" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">JAVA</text>
+      </g>
+  <g>
+        <line x1="403" y1="102" x2="407" y2="102" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="415" y="106" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">06</text>
+        <text x="445" y="106" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">DOCKER</text>
+      </g>
+      <g>
+        <line x1="403" y1="120" x2="407" y2="120" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="415" y="124" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">07</text>
+        <text x="445" y="124" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">KUBERNETES</text>
+      </g>
+      <g>
+        <line x1="403" y1="138" x2="407" y2="138" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="415" y="142" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">08</text>
+        <text x="445" y="142" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">JENKINS</text>
+      </g>
+      <g>
+        <line x1="403" y1="156" x2="407" y2="156" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="415" y="160" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">09</text>
+        <text x="445" y="160" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">DATABRICKS</text>
+      </g>
+      <g>
+        <line x1="403" y1="174" x2="407" y2="174" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+        <text x="415" y="178" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1">10</text>
+        <text x="445" y="178" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.8">AIRFLOW</text>
+      </g>
+  
+
+
+</svg>

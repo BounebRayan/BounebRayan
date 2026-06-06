@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
+  <style>
+    .live { animation: livePulse 12s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+
+    @keyframes livePulse {
+      0%, 60%, 100% { opacity: 0.85; }
+      70% { opacity: 0.25; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bp-paper-stats" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e3a6e" stop-opacity="0.94"/>
+      <stop offset="100%" stop-color="#0e3a6e" stop-opacity="1"/>
+    </linearGradient>
+    <pattern id="bp-grid-stats" x="24" y="24" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.22"/>
+    </pattern>
+    <pattern id="bp-grid-major-stats" x="24" y="24" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#7d9fc4" stroke-width="0.75" stroke-opacity="0.32"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bp-paper-stats)" rx="4" ry="4"/>
+
+  <!-- Grid -->
+  <rect x="24" y="24" width="752" height="272" fill="url(#bp-grid-stats)"/>
+  <rect x="24" y="24" width="752" height="272" fill="url(#bp-grid-major-stats)"/>
+
+  <!-- Sheet border + corner registration marks -->
+  <rect x="24" y="24" width="752" height="272" fill="none" stroke="#f1ece1" stroke-width="1" stroke-opacity="0.7"/>
+  <g>
+    <line x1="19" y1="24" x2="29" y2="24" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="24" y1="19" x2="24" y2="29" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="771" y1="24" x2="781" y2="24" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="776" y1="19" x2="776" y2="29" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="19" y1="296" x2="29" y2="296" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="24" y1="291" x2="24" y2="301" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="771" y1="296" x2="781" y2="296" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="776" y1="291" x2="776" y2="301" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+
+  <!-- Top strip -->
+  <text x="36" y="40" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">FIG. 04    GITHUB ACTIVITY  ·  @BOUNEBRAYAN</text>
+  <g transform="translate(764 36)">
+    <text text-anchor="end" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">SHEET 04 / 05</text>
+    <circle class="live" cx="6" cy="-3" r="2" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <line x1="32" y1="48" x2="768" y2="48" stroke="#7d9fc4" stroke-width="0.75" stroke-opacity="0.4"/>
+
+  <!-- ACTIVITY panel -->
+  <g>
+    <rect x="36" y="64" width="432" height="176" fill="none" stroke="#f1ece1" stroke-width="1" stroke-opacity="0.7"/>
+    <rect x="48" y="57" width="74" height="14" fill="#0e3a6e" stroke="#f1ece1" stroke-width="1" stroke-opacity="0.7"/>
+    <text x="85" y="67" text-anchor="middle" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">ACTIVITY</text>
+    <g>
+      <text x="52" y="90" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">REPOS</text>
+      <text x="148" y="90" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="13" font-weight="700" letter-spacing="0.5">14</text>
+      <text x="420" y="90" text-anchor="end" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.2" opacity="0.8">12 INDEXED</text>
+      <line x1="52" y1="96" x2="436" y2="96" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+    </g>
+  <g>
+      <text x="52" y="112" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">COMMITS</text>
+      <text x="148" y="112" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="13" font-weight="700" letter-spacing="0.5">71</text>
+      <text x="420" y="112" text-anchor="end" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.2" opacity="0.8">THIS YEAR</text>
+      <line x1="52" y1="118" x2="436" y2="118" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+    </g>
+  <g>
+      <text x="52" y="134" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">PRS</text>
+      <text x="148" y="134" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="13" font-weight="700" letter-spacing="0.5">33</text>
+      <text x="420" y="134" text-anchor="end" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.2" opacity="0.8">17 THIS YEAR</text>
+      <line x1="52" y1="140" x2="436" y2="140" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+    </g>
+  <g>
+      <text x="52" y="156" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4">REVIEWS</text>
+      <text x="148" y="156" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="13" font-weight="700" letter-spacing="0.5">5</text>
+      <text x="420" y="156" text-anchor="end" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.2" opacity="0.8">THIS YEAR</text>
+      
+    </g>
+    <text x="52" y="204" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">TOTAL CONTRIBS  ·  1,468</text>
+    <rect x="52" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="85.66666666666667" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="119.33333333333334" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="153" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="186.66666666666669" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="220.33333333333337" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="254.00000000000003" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="287.6666666666667" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="321.33333333333337" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="355.00000000000006" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="388.66666666666674" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  <rect x="422.33333333333337" y="210" width="29.666666666666668" height="6" rx="1" fill="#ffffff" fill-opacity="0.85"/>
+  </g>
+
+  <!-- MATERIALS panel -->
+  <g>
+    <rect x="492" y="64" width="272" height="176" fill="none" stroke="#f1ece1" stroke-width="1" stroke-opacity="0.7"/>
+    <rect x="504" y="57" width="81" height="14" fill="#0e3a6e" stroke="#f1ece1" stroke-width="1" stroke-opacity="0.7"/>
+    <text x="544.5" y="67" text-anchor="middle" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">MATERIALS</text>
+    <g>
+      <rect x="504" y="82" width="10" height="10" fill="#3178c6"/>
+      <text x="522" y="90" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">TYPESCRIPT</text>
+      <text x="752" y="90" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">69.3%</text>
+      <line x1="504" y1="98" x2="752" y2="98" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+    </g>
+  <g>
+      <rect x="504" y="106" width="10" height="10" fill="#f1e05a"/>
+      <text x="522" y="114" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">JAVASCRIPT</text>
+      <text x="752" y="114" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">19.8%</text>
+      <line x1="504" y1="122" x2="752" y2="122" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+    </g>
+  <g>
+      <rect x="504" y="130" width="10" height="10" fill="#AA6746"/>
+      <text x="522" y="138" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">SOLIDITY</text>
+      <text x="752" y="138" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">7.6%</text>
+      <line x1="504" y1="146" x2="752" y2="146" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+    </g>
+  <g>
+      <rect x="504" y="154" width="10" height="10" fill="#663399"/>
+      <text x="522" y="162" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">CSS</text>
+      <text x="752" y="162" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">1.7%</text>
+      <line x1="504" y1="170" x2="752" y2="170" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+    </g>
+  <g>
+      <rect x="504" y="178" width="10" height="10" fill="#e34c26"/>
+      <text x="522" y="186" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">HTML</text>
+      <text x="752" y="186" text-anchor="end" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">1.1%</text>
+      
+    </g>
+  </g>
+
+  <!-- Title block -->
+  <g>
+    <rect x="24" y="252" width="150" height="44" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="32" y="264" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">DRAWN BY</text>
+    <text x="32" y="288" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">B.R.</text>
+  </g>
+  <g>
+    <rect x="174" y="252" width="150" height="44" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="182" y="264" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">DATE</text>
+    <text x="182" y="288" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">26.10</text>
+  </g>
+  <g>
+    <rect x="324" y="252" width="150" height="44" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="332" y="264" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">SCALE</text>
+    <text x="332" y="288" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">1:1</text>
+  </g>
+  <g>
+    <rect x="474" y="252" width="150" height="44" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="482" y="264" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">REV</text>
+    <text x="482" y="288" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">1.0</text>
+  </g>
+  <g>
+    <rect x="624" y="252" width="152" height="44" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="632" y="264" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">SHEET</text>
+    <text x="632" y="288" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">04 / 05</text>
+  </g>
+</svg>

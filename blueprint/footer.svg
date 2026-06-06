@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <style>
+    .live { animation: livePulse 12s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .stamp-pulse { animation: stampGlow 12s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+
+    @keyframes livePulse {
+      0%, 60%, 100% { opacity: 0.85; }
+      70% { opacity: 0.25; }
+    }
+    @keyframes stampGlow {
+      0%, 100% { stroke-opacity: 0.55; }
+      50% { stroke-opacity: 0.85; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bp-paper-3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e3a6e" stop-opacity="0.94"/>
+      <stop offset="100%" stop-color="#0e3a6e" stop-opacity="1"/>
+    </linearGradient>
+    <pattern id="bp-grid-3" x="24" y="24" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.22"/>
+    </pattern>
+    <pattern id="bp-grid-major-3" x="24" y="24" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#7d9fc4" stroke-width="0.75" stroke-opacity="0.32"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bp-paper-3)" rx="4" ry="4"/>
+
+  <!-- Grid -->
+  <rect x="24" y="24" width="752" height="252" fill="url(#bp-grid-3)"/>
+  <rect x="24" y="24" width="752" height="252" fill="url(#bp-grid-major-3)"/>
+
+  <!-- Sheet border + corner registration marks -->
+  <rect x="24" y="24" width="752" height="252" fill="none" stroke="#f1ece1" stroke-width="1" stroke-opacity="0.7"/>
+  <g>
+    <line x1="19" y1="24" x2="29" y2="24" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="24" y1="19" x2="24" y2="29" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="771" y1="24" x2="781" y2="24" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="776" y1="19" x2="776" y2="29" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="19" y1="276" x2="29" y2="276" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="24" y1="271" x2="24" y2="281" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+  <g>
+    <line x1="771" y1="276" x2="781" y2="276" stroke="#f1ece1" stroke-width="1"/>
+    <line x1="776" y1="271" x2="776" y2="281" stroke="#f1ece1" stroke-width="1"/>
+  </g>
+
+  <!-- Top strip -->
+  <text x="36" y="40" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">FIG. 03    REFERENCES · CERTIFICATION</text>
+  <g transform="translate(764 36)">
+    <text text-anchor="end" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2">SHEET 05 / 05</text>
+    <circle class="live" cx="6" cy="-3" r="2" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <line x1="32" y1="48" x2="768" y2="48" stroke="#7d9fc4" stroke-width="0.75" stroke-opacity="0.4"/>
+
+  <!-- REVISION HISTORY box -->
+  <rect x="36" y="60" width="480" height="56" fill="none" stroke="#f1ece1" stroke-width="1" stroke-opacity="0.7"/>
+  <line x1="36" y1="78" x2="516" y2="78" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.5"/>
+  <line x1="96" y1="60" x2="96" y2="116" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="186" y1="60" x2="186" y2="116" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <line x1="456" y1="60" x2="456" y2="116" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="46" y="72" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">REV</text>
+  <text x="106" y="72" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">DATE</text>
+  <text x="196" y="72" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">DESCRIPTION</text>
+  <text x="466" y="72" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">INIT</text>
+  <text x="46" y="92" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">1.0</text>
+      <text x="106" y="92" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">26.10.26</text>
+      <text x="196" y="92" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">INITIAL RELEASE</text>
+      <text x="466" y="92" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="0.8">B.R.</text>
+
+  <!-- REFERENCES section -->
+  
+    <text x="48" y="132" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.4">REFERENCES</text>
+    <line x1="36" y1="138" x2="516" y2="138" stroke="#7d9fc4" stroke-width="0.5" stroke-opacity="0.45"/>
+  
+  <g>
+      <text x="48" y="150" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.2">REF. 01</text>
+      <text x="124" y="150" fill="#ffffff" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.2">LINKEDIN</text>
+      <text x="236" y="150" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.5">@rayan-bouneb</text>
+    </g>
+  <g>
+      <text x="48" y="170" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.2">REF. 02</text>
+      <text x="124" y="170" fill="#ffffff" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.2">EMAIL</text>
+      <text x="236" y="170" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="12" letter-spacing="0.5">rayan@codeandledger.com</text>
+    </g>
+  
+  
+
+  <!-- APPROVED stamp -->
+  <g class="stamp-pulse"><g class="stamp" transform="translate(640 144) rotate(-5)">
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-opacity="0.85"/>
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="3 3"/>
+    <!-- Top arc label "CERTIFIED" using a curved path -->
+    <path id="stamp-top-arc" d="M -46 0 A 46 46 0 0 1 46 0" fill="none"/>
+    <text font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.6" fill="#ffffff">
+      <textPath href="#stamp-top-arc" startOffset="50%" text-anchor="middle">CERTIFIED ENGINEER</textPath>
+    </text>
+    <!-- Center stack: APPROVED, line, date -->
+    <text x="0" y="0" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, monospace" font-size="13" font-weight="700" letter-spacing="1.6">APPROVED</text>
+    <line x1="-30" y1="8" x2="30" y2="8" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7"/>
+    <text x="0" y="22" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.5">REV 1.0</text>
+    <text x="0" y="36" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.5" opacity="0.85">26.10.26</text>
+  </g></g>
+
+  <!-- Title block -->
+  <g>
+    <rect x="24" y="236" width="150" height="40" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="32" y="248" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">DRAWN BY</text>
+    <text x="32" y="268" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">B.R.</text>
+  </g>
+  <g>
+    <rect x="174" y="236" width="150" height="40" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="182" y="248" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">DATE</text>
+    <text x="182" y="268" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">26.10</text>
+  </g>
+  <g>
+    <rect x="324" y="236" width="150" height="40" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="332" y="248" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">SCALE</text>
+    <text x="332" y="268" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">1:1</text>
+  </g>
+  <g>
+    <rect x="474" y="236" width="150" height="40" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="482" y="248" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">REV</text>
+    <text x="482" y="268" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">1.0</text>
+  </g>
+  <g>
+    <rect x="624" y="236" width="152" height="40" fill="none" stroke="#7d9fc4" stroke-width="1" stroke-opacity="0.55"/>
+    <text x="632" y="248" fill="#7d9fc4" font-family="ui-monospace, monospace" font-size="8" letter-spacing="1.2">SHEET</text>
+    <text x="632" y="268" fill="#f1ece1" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1">05 / 05</text>
+  </g>
+
+  <!-- ryme.md attribution: small uppercase mono credit inside the bottom-right
+       margin, low-opacity so it reads as drafted-on metadata rather than a logo. -->
+  <text x="770" y="290" text-anchor="end" fill="#7d9fc4" fill-opacity="0.55" font-family="ui-monospace, monospace" font-size="9" letter-spacing="1.2">DRAFTED ON RYME.MD</text>
+</svg>
