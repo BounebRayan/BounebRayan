@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="191" viewBox="0 0 800 191">
   <style>
-    .pf-leaf { transform-origin: 753.5px 40.5px; animation: pf-bob 6s ease-in-out infinite; }
+    .pf-leaf { transform-origin: 753.5px 40.5px; animation: pf-bob 15s ease-in-out infinite; }
     
-    .pf-header { animation: pf-pop 12s ease-out infinite; }
-    .pf-underline { animation: pf-wipe 12s ease-out infinite; transform-origin: 36px center; }
-    .pf-line { animation: pf-pop 12s ease-out infinite; }
-    .pf-line-0 { animation-delay: 1.80s; }
-    .pf-line-1 { animation-delay: 2.40s; }
-    .pf-line-2 { animation-delay: 3.00s; }
-    .pf-line-3 { animation-delay: 3.60s; }
+    .pf-header { animation: pf-pop 30s ease-out infinite; }
+    .pf-underline { animation: pf-wipe 30s ease-out infinite; transform-origin: 36px center; }
+    .pf-line { animation: pf-pop 30s ease-out infinite; }
+    .pf-line-0 { animation-delay: 4.50s; }
+    .pf-line-1 { animation-delay: 6.00s; }
+    .pf-line-2 { animation-delay: 7.50s; }
+    .pf-line-3 { animation-delay: 9.00s; }
     
     @keyframes pf-pop {
       0%, 6%   { opacity: 0; transform: translateY(-4px); }
@@ -38,10 +38,10 @@
   </g>
 
   <!-- body (wrapped bio) -->
-  <text class="pf-line pf-line-0" x="36" y="98" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">Most of my time is spent building dApps, DeFi products, and experimenting</text>
-  <text class="pf-line pf-line-1" x="36" y="120" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">with new blockchain ideas. I also contribute to open-source initiatives like</text>
-  <text class="pf-line pf-line-2" x="36" y="142" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">WalletLabels, which helps bring greater transparency to the crypto space</text>
-  <text class="pf-line pf-line-3" x="36" y="164" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">through wallet address labeling.</text>
+  <text class="pf-line pf-line-0" x="36" y="98" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">I build financial software across both sides of the industry from dApps,</text>
+  <text class="pf-line pf-line-1" x="36" y="120" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">DeFi, and blockchain infrastructure to institutional trading and financial</text>
+  <text class="pf-line pf-line-2" x="36" y="142" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">platforms. I also enjoy experimenting with new ideas and contributing to</text>
+  <text class="pf-line pf-line-3" x="36" y="164" fill="#3d2818" font-family="ui-monospace, monospace" font-size="14" font-weight="500" letter-spacing="0.5">open-source projects like WalletLabels.</text>
 
   <!-- top-right leaf accent -->
   <g class="pf-leaf"><rect x="755" y="30" width="3" height="3" fill="#5fa847"/><rect x="752" y="33" width="3" height="3" fill="#5fa847"/><rect x="755" y="33" width="3" height="3" fill="#3e7a30"/><rect x="749" y="36" width="3" height="3" fill="#5fa847"/><rect x="752" y="36" width="3" height="3" fill="#3e7a30"/><rect x="755" y="36" width="3" height="3" fill="#3e7a30"/><rect x="758" y="36" width="3" height="3" fill="#3e7a30"/><rect x="746" y="39" width="3" height="3" fill="#5fa847"/><rect x="749" y="39" width="3" height="3" fill="#3e7a30"/><rect x="752" y="39" width="3" height="3" fill="#3e7a30"/><rect x="755" y="39" width="3" height="3" fill="#3e7a30"/><rect x="758" y="39" width="3" height="3" fill="#3e7a30"/><rect x="761" y="39" width="3" height="3" fill="#3e7a30"/><rect x="743" y="42" width="3" height="3" fill="#3e7a30"/><rect x="746" y="42" width="3" height="3" fill="#3e7a30"/><rect x="749" y="42" width="3" height="3" fill="#3e7a30"/><rect x="752" y="42" width="3" height="3" fill="#3e7a30"/><rect x="755" y="42" width="3" height="3" fill="#3e7a30"/><rect x="758" y="42" width="3" height="3" fill="#3e7a30"/><rect x="761" y="42" width="3" height="3" fill="#5fa847"/><rect x="743" y="45" width="3" height="3" fill="#3e7a30"/><rect x="746" y="45" width="3" height="3" fill="#3e7a30"/><rect x="749" y="45" width="3" height="3" fill="#3e7a30"/><rect x="752" y="45" width="3" height="3" fill="#3e7a30"/><rect x="755" y="45" width="3" height="3" fill="#5fa847"/><rect x="743" y="48" width="3" height="3" fill="#3d2818"/></g>
